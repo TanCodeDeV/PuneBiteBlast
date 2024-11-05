@@ -375,14 +375,16 @@ const restaurantList = [
 ];
 
 const ResturantCard = (props) => {
-  const { resName } = props;
+  const { resData } = props;
+  const { cloudinaryImageId, name, cuisines, avgRating, slaString } =
+    resData?.data;
   return (
     <div className="resCard">
-      <img className="resCardImg" src={resName.data.cloudinaryImageId}></img>
-      <h3>{resName.data.name}</h3>
-      <h4>{resName.data.cuisines.join(", ")}</h4>
-      <h4>{resName.data.avgRating}⭐</h4>
-      <h4>{resName.data.slaString}</h4>
+      <img className="resCardImg" src={cloudinaryImageId}></img>
+      <h3>{name}</h3>
+      <h4>{cuisines.join(", ")}</h4>
+      <h4>{avgRating}⭐</h4>
+      <h4>{slaString}</h4>
     </div>
   );
 };
@@ -392,16 +394,9 @@ const Body = () => {
     <div className="body-container">
       <div className="serach-bar">Search Here!</div>
       <div className="resturant-container">
-        <ResturantCard resName={restaurantList[0]} />
-        <ResturantCard resName={restaurantList[1]} />
-        <ResturantCard resName={restaurantList[2]} />
-        <ResturantCard resName={restaurantList[3]} />
-        <ResturantCard resName={restaurantList[4]} />
-        <ResturantCard resName={restaurantList[5]} />
-        <ResturantCard resName={restaurantList[6]} />
-        <ResturantCard resName={restaurantList[7]} />
-        <ResturantCard resName={restaurantList[8]} />
-        <ResturantCard resName={restaurantList[9]} />
+        {restaurantList.map((resturant) => (
+          <ResturantCard resData={resturant} />
+        ))}
       </div>
     </div>
   );
