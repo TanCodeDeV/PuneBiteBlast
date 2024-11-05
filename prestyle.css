@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.body-container {
+  height: 30rem;
+  border: 2px solid black;
+}
+
+.resCard {
+  height: 300px;
+  width: 150px;
+  border: 3px solid black;
+  margin: 1rem;
+  display: flex; /* Enable flex layout */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  background-color: cyan;
+}
+
+/* .resCardImg {
+    height: 50%;
+    width: 90%;
+    border: 1px soild black;
+    border-radius: 5px;
+  } */
+
+.resCardImg {
+  width: 100%; /* Occupy full width of .resCard */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Optional: cover the container fully */
+}
+
+.serach-bar {
+  width: 60rem;
+  height: 1.5rem;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 5px;
+}
