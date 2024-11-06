@@ -98,3 +98,22 @@ body {
   border-bottom: 2px solid black;
   object-fit: cover;
 }
+
+.body_header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  border: 5px soild black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  border: 3px soild black;
+  background-color: coral;
+}
