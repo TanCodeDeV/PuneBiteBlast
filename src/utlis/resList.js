@@ -10,7 +10,7 @@ const restaurantList = [
       area: "Deccan Gymkhana",
       totalRatingsString: "5000+ ratings",
       cloudinaryImageId:
-        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/0311a6dd2129d55ed3fed3211b419a02",
+        "https://tse3.mm.bing.net/th?id=OIP.UjNtweSV2OLQnwvDiq_j7QHaFc&pid=Api&P=0&h=180",
       cuisines: ["South Indian", "Indian"],
       costForTwo: 40000,
       costForTwoString: "₹400 FOR TWO",
@@ -79,7 +79,8 @@ const restaurantList = [
       city: "21",
       area: "Deccan Gymkhana",
       totalRatingsString: "3000+ ratings",
-      cloudinaryImageId: "goodluck_pune",
+      cloudinaryImageId:
+        "https://media-cdn.tripadvisor.com/media/photo-s/0e/00/0b/15/cafe-goodluck.jpg",
       cuisines: ["Irani", "Biryani", "Fast Food"],
       costForTwo: 45000,
       costForTwoString: "₹450 FOR TWO",
@@ -113,7 +114,8 @@ const restaurantList = [
       city: "21",
       area: "Kothrud",
       totalRatingsString: "2000+ ratings",
-      cloudinaryImageId: "sps_biryani_pune",
+      cloudinaryImageId:
+        "https://im.whatshot.in/img/2021/Feb/161963-c-1613888363.jpg",
       cuisines: ["Biryani", "North Indian"],
       costForTwo: 50000,
       costForTwoString: "₹500 FOR TWO",
@@ -147,7 +149,7 @@ const restaurantList = [
       city: "21",
       area: "Deccan Gymkhana",
       totalRatingsString: "3000+ ratings",
-      cloudinaryImageId: "sukanta_pune",
+      cloudinaryImageId: "https://i.ytimg.com/vi/uL8rCEfDf8Q/hqdefault.jpg",
       cuisines: ["Maharashtrian", "Thalis"],
       costForTwo: 60000,
       costForTwoString: "₹600 FOR TWO",
@@ -181,7 +183,8 @@ const restaurantList = [
       city: "21",
       area: "Kothrud",
       totalRatingsString: "1500+ ratings",
-      cloudinaryImageId: "durvankur_pune",
+      cloudinaryImageId:
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/6f/bf/98/veg-thali.jpg?w=1200&h=-1&s=1",
       cuisines: ["Maharashtrian", "Thalis"],
       costForTwo: 50000,
       costForTwoString: "₹500 FOR TWO",
@@ -215,7 +218,8 @@ const restaurantList = [
       city: "21",
       area: "Deccan Gymkhana",
       totalRatingsString: "2000+ ratings",
-      cloudinaryImageId: "savya_rasa_pune",
+      cloudinaryImageId:
+        "https://im.whatshot.in/img/2017/Oct/17634844-1725107047779997-4137303092141678431-n-cropped-1507550376.jpg?wm=1&w=1200&h=630&cc=1",
       cuisines: ["South Indian", "Keralite"],
       costForTwo: 90000,
       costForTwoString: "₹900 FOR TWO",
@@ -249,7 +253,8 @@ const restaurantList = [
       city: "21",
       area: "Deccan Gymkhana",
       totalRatingsString: "2500+ ratings",
-      cloudinaryImageId: "chaitanya_paratha_pune",
+      cloudinaryImageId:
+        "https://b.zmtcdn.com/data/pictures/chains/3/10013/34600614f8ed8b2f722c30442fd0fd9e.jpg",
       cuisines: ["North Indian", "Punjabi"],
       costForTwo: 30000,
       costForTwoString: "₹300 FOR TWO",
@@ -283,7 +288,8 @@ const restaurantList = [
       city: "21",
       area: "Kothrud",
       totalRatingsString: "1800+ ratings",
-      cloudinaryImageId: "darshan_pune",
+      cloudinaryImageId:
+        "https://tse4.mm.bing.net/th?id=OIP.bJBjuTqdxu8SSYBov_JBeAHaEK&pid=Api&P=0&h=180",
       cuisines: ["Bakery", "Desserts"],
       costForTwo: 20000,
       costForTwoString: "₹200 FOR TWO",
@@ -317,7 +323,8 @@ const restaurantList = [
       city: "21",
       area: "Deccan Gymkhana",
       totalRatingsString: "1500+ ratings",
-      cloudinaryImageId: "bedekar_misal_pune",
+      cloudinaryImageId:
+        "https://1.bp.blogspot.com/_LrhDa7ybT2E/TRQzFPcwjmI/AAAAAAAABXU/ikWPY-O1QGY/s1600/Misal+Pav.jpg",
       cuisines: ["Maharashtrian", "Snacks"],
       costForTwo: 20000,
       costForTwoString: "₹200 FOR TWO",
@@ -342,3 +349,5 @@ const restaurantList = [
     subtype: "basic",
   },
 ];
+
+export default restaurantList;
